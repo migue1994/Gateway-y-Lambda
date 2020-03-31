@@ -1,11 +1,7 @@
 package edu.eci.escuelaing.lambda.services;
 
-import spark.Request;
-import spark.Response;
-import static spark.Spark.*;
-
-import java.util.Arrays;
-import java.util.List;
+import static spark.Spark.get;
+import static spark.Spark.port;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,6 +10,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import spark.Request;
+import spark.Response;
 
 
 
