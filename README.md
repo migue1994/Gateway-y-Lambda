@@ -44,17 +44,17 @@ Hecho esto, solo debemos ingresar en el navegador e ir a la dirección htttp://l
 
 Para poder poner a funcionar el servicio, debemos crear primero una función, la cual permitirá calcular el cuadrado de un número, esta clase es la misma que el profesor dejó en el tutorial inicial, por lo tanto solo se mostrará la interfaz de la api rest en aws api gateway.
 
-![gateway]()
+![gateway](https://github.com/migue1994/Gateway-y-Lambda/blob/master/img/gateway.PNG)
 
 La función que usamos, es la misma que está en el tutorial.
 
 A continuación se mostrará el código del servidor que se ejecuta en la máquina que estará en aws EC2
 
-![codigo]()
+![codigo](https://github.com/migue1994/Gateway-y-Lambda/blob/master/img/codigo.PNG)
 
 Por otro lado, se debe realizar una petición a la api rest, con el fin de obtener el resultado que requerimos, el fragmento de código que hace esto posible es el siguiente.
 
-![peticion]()
+![peticion](https://github.com/migue1994/Gateway-y-Lambda/blob/master/img/peticion.PNG)
 
 El fragmento anterior, corresponde a la página principal, en donde se encuantra el formulario que requiere un número como entrada.
 
@@ -62,12 +62,12 @@ posteriormente, se debe crear una instancia EC2 en aws, a la cual le instalaremo
 
 Una vez hecho esto, descargamos el repositorio usando git, para después ejecutarlo mediante maven de la siguiente forma
 
-![awsEC2]()
+![awsEC2](https://github.com/migue1994/Gateway-y-Lambda/blob/master/img/awsEC2.PNG)
 
 Finalmente, probamos nuestro sercicio corriendo desde la dirección que nos provee aws en la instancia que habíamos creado.
 
-![formulario1]()
+![formulario1](https://github.com/migue1994/Gateway-y-Lambda/blob/master/img/formulario1.PNG)
 
 Damos en el boton submit, y nos redireccionará a una página que contiene los resultados.
 
-![formulario2]()
+![formulario2](https://github.com/migue1994/Gateway-y-Lambda/blob/master/img/formulario2.PNG)
